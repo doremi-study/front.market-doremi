@@ -75,6 +75,16 @@ ol, ul {
 div, th, td, li, dt, dd, p {
     word-break: break-all;
 }
+#userMenu .sub {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 34px;
+    width: 102px;
+    padding: 3px 9px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
 #userMenu .sub a {
     font-size: 12px;
     color: #404040;
